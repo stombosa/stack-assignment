@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title> </title>
+    <script>
+        "use strict";
+        function arrySum(array) {
+            if (array.length === 0) {
+                return 0;
+            }
+            else {
+                return array[0] + arrySum(array.slice(1));
+            }
+
+        }
+        // Test cases
+    console.log(arrySum([10, 1, 2, 3])); // 6
+
+    </script>
+</head>
+</body>
+</body>
+
+</html>
